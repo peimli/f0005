@@ -1,0 +1,7 @@
+szám1 = 4
+szám2 = 5
+tipp = int(input('mennyi   ' +str(szám1) + '+' +str(szám2) +'  ?  ' ) )
+if tipp == szám1 + szám2:
+    print('ügyes')
+else:
+    print('buta vagy')
