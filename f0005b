@@ -1,0 +1,8 @@
+jelszó = 456135
+tipp = input(' adja meg a jelszót ')
+tipp = int(tipp)
+if jelszó == tipp:
+     print('bemehet')
+    
+else: 
+     print('hozzá féres megtagadva')
